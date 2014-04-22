@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BubbleSort", "BubbleSort\BubbleSort\BubbleSort.vcxproj", "{A387C7E0-5F85-463C-A85D-2F74A05B3AAA}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "InsertSort", "InsertSort\InsertSort.vcxproj", "{852AFBC7-8256-4CEC-AED5-2E9B6F001AB9}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ShellSort", "ShellSort\ShellSort.vcxproj", "{944DE2F0-FACB-425F-BB1E-399D1516D684}"
@@ -15,16 +13,14 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QuikSort", "QuikSort\QuikSo
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HeapSort", "HeapSort\HeapSort.vcxproj", "{6337671C-9965-4B77-8197-6FC425A67C68}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BubbleSort", "BubbleSort\BubbleSort.vcxproj", "{A387C7E0-5F85-463C-A85D-2F74A05B3AAA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A387C7E0-5F85-463C-A85D-2F74A05B3AAA}.Debug|Win32.ActiveCfg = Debug|Win32
-		{A387C7E0-5F85-463C-A85D-2F74A05B3AAA}.Debug|Win32.Build.0 = Debug|Win32
-		{A387C7E0-5F85-463C-A85D-2F74A05B3AAA}.Release|Win32.ActiveCfg = Release|Win32
-		{A387C7E0-5F85-463C-A85D-2F74A05B3AAA}.Release|Win32.Build.0 = Release|Win32
 		{852AFBC7-8256-4CEC-AED5-2E9B6F001AB9}.Debug|Win32.ActiveCfg = Debug|Win32
 		{852AFBC7-8256-4CEC-AED5-2E9B6F001AB9}.Debug|Win32.Build.0 = Debug|Win32
 		{852AFBC7-8256-4CEC-AED5-2E9B6F001AB9}.Release|Win32.ActiveCfg = Release|Win32
@@ -49,6 +45,10 @@ Global
 		{6337671C-9965-4B77-8197-6FC425A67C68}.Debug|Win32.Build.0 = Debug|Win32
 		{6337671C-9965-4B77-8197-6FC425A67C68}.Release|Win32.ActiveCfg = Release|Win32
 		{6337671C-9965-4B77-8197-6FC425A67C68}.Release|Win32.Build.0 = Release|Win32
+		{A387C7E0-5F85-463C-A85D-2F74A05B3AAA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A387C7E0-5F85-463C-A85D-2F74A05B3AAA}.Debug|Win32.Build.0 = Debug|Win32
+		{A387C7E0-5F85-463C-A85D-2F74A05B3AAA}.Release|Win32.ActiveCfg = Release|Win32
+		{A387C7E0-5F85-463C-A85D-2F74A05B3AAA}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
